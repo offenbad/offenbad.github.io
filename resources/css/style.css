@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    backgrounf-color: #fff;
+    color: #151313;
+    font-family: 'Cardo', serif;
+    font-weight: 400;
+    font-size: 10px;
+    text-rendering: optimizeLegibility;
+}
+/*------REUSABLE SEGMENTS-------------*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section {
+    padding: 2rem;
+}
+.series { 
+    padding: 1rem;
+    border-top: 1px solid #c8c9c3; 
+    border-bottom: 1px solid #c8c9c3;
+}
+
+/*------text-------------*/
+.series__title {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding-bottom: 1.5rem;
+}
+.series__subheading {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    padding-bottom: 1rem;
+}
+.series__textblock {
+    max-width: 60rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    display: block;
+    padding: 1rem 1rem 2rem 1rem;
+}
+.series__textblock__segment {
+    padding: 1rem;
+    text-align: justify;
+}
+.series__textblock__gap {  
+    border-top: 1px solid #c8c9c3; 
+    padding-bottom: 2rem;
+}
+
+
+/*------HEADER-------------*/
+.header { 
+    padding: .5rem;
+}
+.header__logo {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    float: left;
+}
+.header__logo a:link,
+.header__logo a:visited {
+    text-decoration: none;
+    color: #151313;
+    transition: color 0.3s;
+}
+.header__logo a:hover,
+.header__logo a:active {
+    color: rgba(149, 147, 134, 0.64);
+} 
+
+.header__nav {
+    float: right;
+    padding-top: 10px;
+}
+.header__nav__item {
+    display: inline-block;
+    padding-left: 2rem;
+}
+.header__nav__item a:link,
+.header__nav__item a:visited {
+    padding: 1px 0px;
+    color: #000;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+.header__nav__item a:hover,
+.header__nav__item a:active {
+    color: rgba(149, 147, 134, 0.64);
+} 
+
+
+/*------HEADER DROPDOWN NAV-------------*/
+.nav__dropdown__button {
+    padding: 1px 0px;
+    color: #000;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.nav__dropdown__content {
+    display: none;
+}
+.nav__dropdown:hover .nav__dropdown__content {
+    display: block;
+}
+.nav__dropdown:active .nav__dropdown__content {
+    display: block;
+}
+.dropdown__nav {
+    display: block;
+    padding: 1rem;
+    position: absolute;
+    background-color: rgba(234, 235, 225, 0.8);
+}
+.dropdown__nav__item {
+    display: block;
+    padding: .5rem;
+}
+
+
+/*------HEADER__MOBILE NAV-------------*/
+.mobile-nav-icon {
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+.mobile-nav-icon i {
+    font-size: 2.5rem;
+}
+
+
+/*------FOOTER-------------*/
+.footer { padding: .5rem; }
+
+
+/*------FRONT PAGE-------------*/
+.frontpage img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*------WORKS PAGE-------------*/
+.item {
+    padding-bottom: 2rem;
+}
+.item__image {
+     overflow: hidden;
+}
+.item img {
+    width: 100%;
+    height: auto;
+    cursor: zoom-in;
+    transition: transform 1.5s;
+}
+
+.item img:active {
+    transform: scale(2);
+}
+.item__caption {
+    padding: .5rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+/*------resume page-------------*/
+.resume__year {
+    font-weight: 700;
+    display: block;
+    padding-top: 1rem;
+}
+.resume__entry {
+    display: block;
+    padding: .5rem;
+}
+.resume__entry em {
+    letter-spacing: 1.5px;
+    display: inline-block; 
+    padding: 0 .7rem; 
+}
+
+
+/*------contact page-------------*/
+.contact__link {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.contact__link a:link,
+.contact__link a:visited {
+    text-decoration: none;
+    color: #151313;
+    transition: color 0.3s;
+}
+.contact__link a:hover,
+.contact__link a:active {
+    color: rgba(149, 147, 134, 0.64);
+}
+.contact__email { font-size: 2rem; }
+    
+    
