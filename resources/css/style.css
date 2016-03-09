@@ -73,7 +73,8 @@ html {
     transition: color 0.3s;
 }
 .header__logo a:hover,
-.header__logo a:active {
+.header__logo a:active,
+.header__logo a:focus {
     color: rgba(149, 147, 134, 0.64);
 } 
 
@@ -96,7 +97,8 @@ html {
     transition: color 0.3s;
 }
 .header__nav__item a:hover,
-.header__nav__item a:active {
+.header__nav__item a:active,
+.header__nav__item a:focus {
     color: rgba(149, 147, 134, 0.64);
 } 
 
@@ -117,6 +119,9 @@ html {
     display: block;
 }
 .nav__dropdown:active .nav__dropdown__content {
+    display: block;
+}
+.nav__dropdown:focus .nav__dropdown__content {
     display: block;
 }
 .dropdown__nav {
@@ -166,7 +171,7 @@ html {
     cursor: zoom-in;
     transition: transform 1.5s;
 }
-
+.item img:focus,
 .item img:active {
     transform: scale(2);
 }
@@ -207,7 +212,8 @@ html {
     transition: color 0.3s;
 }
 .contact__link a:hover,
-.contact__link a:active {
+.contact__link a:active,
+.contact__link a:focus {
     color: rgba(149, 147, 134, 0.64);
 }
 .contact__email { font-size: 2rem; }
