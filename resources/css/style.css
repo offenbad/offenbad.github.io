@@ -78,73 +78,56 @@ html {
     color: rgba(149, 147, 134, 0.64);
 } 
 
-.header__nav {
+/*------HEADER DROPDOWN NAV-------------*/
+.header__nav__icon { display: none; }
+.header__nav { 
+    display: inline-block;
     float: right;
-    padding-top: 10px;
 }
 .header__nav__item {
     display: inline-block;
-    padding-left: 2rem;
+    padding: .5rem 1rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }
 .header__nav__item a:link,
 .header__nav__item a:visited {
-    padding: 1px 0px;
     color: #000;
-    letter-spacing: 1.5px;
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.2rem;
     transition: color 0.3s;
 }
 .header__nav__item a:hover,
 .header__nav__item a:active,
 .header__nav__item a:focus {
     color: rgba(149, 147, 134, 0.64);
-} 
+}
 
-
-/*------HEADER DROPDOWN NAV-------------*/
-.nav__dropdown__button {
-    padding: 1px 0px;
-    color: #000;
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-}
-.nav__dropdown__content {
-    display: none;
-}
-.nav__dropdown:hover .nav__dropdown__content {
-    display: block;
-}
-.nav__dropdown:active .nav__dropdown__content {
-    display: block;
-}
-.nav__dropdown:focus .nav__dropdown__content {
-    display: block;
-}
-.dropdown__nav {
-    display: block;
-    padding: 1rem;
-    position: absolute;
-    background-color: rgba(234, 235, 225, 0.8);
-}
+.dropdown__nav { display: none; }
+.dropdown__nav__icon { padding: 0rem 1rem; }
 .dropdown__nav__item {
     display: block;
-    padding: .5rem;
+    padding: .5rem 2rem;
+    letter-spacing: 1.5px;
+    text-transform: none;
+    font-size: 1.5rem;
+}
+.dropdown__nav__item a:link,
+.dropdown__nav__item a:visited {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.dropdown__nav__item a:hover,
+.dropdown__nav__item a:active,
+.dropdown__nav__item a:focus {
+    color: rgba(149, 147, 134, 0.64);
 }
 
 
-/*------HEADER__MOBILE NAV-------------*/
-.mobile-nav-icon {
-    float: right;
-    cursor: pointer;
-    display: none;
-}
-.mobile-nav-icon i {
-    font-size: 2.5rem;
-}
+
+
+
 
 
 /*------FOOTER-------------*/
@@ -192,10 +175,12 @@ html {
     padding: .5rem;
 }
 .resume__entry em {
+    font-weight: 700;
     letter-spacing: 1.5px;
     display: inline-block; 
     padding: 0 .7rem; 
 }
+.series__textblock--resume { max-width: none; }
 
 
 /*------contact page-------------*/
@@ -217,5 +202,4 @@ html {
     color: rgba(149, 147, 134, 0.64);
 }
 .contact__email { font-size: 2rem; }
-    
     

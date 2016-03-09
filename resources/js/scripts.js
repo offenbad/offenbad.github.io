@@ -1,6 +1,6 @@
 $(document).ready(function() {
  
-    /* mobile navigation */
+    /*main navigation */
     $('.js--nav-icon').click(function() {
        var nav = $('.js--header__nav');
        var icon = $('.js--nav-icon i');    
@@ -14,6 +14,38 @@ $(document).ready(function() {
            icon.addClass('ion-navicon-round');
            icon.removeClass('ion-close-round')
        }
+    });
+    
+    $('.js--works__icon').click(function() {
+       var worksNav = $('.js--works__nav');
+       var worksIcon = $('.js--works__icon i');
+       
+       worksNav.slideToggle(300);
+        
+        if (worksIcon.hasClass('ion-plus-round')) {
+            worksIcon.addClass('ion-minus-round');
+            worksIcon.removeClass('ion-plus-round')
+       } else {
+            worksIcon.addClass('ion-plus-round');
+            worksIcon.removeClass('ion-minus-round')
+       }    
+        
+    });
+    
+    $('.js--about__icon').click(function() {
+       var aboutNav = $('.js--about__nav');
+       var aboutIcon = $('.js--about__icon i');
+       
+       aboutNav.slideToggle(300);
+        
+        if (aboutIcon.hasClass('ion-plus-round')) {
+            aboutIcon.addClass('ion-minus-round');
+            aboutIcon.removeClass('ion-plus-round')
+       } else {
+            aboutIcon.addClass('ion-plus-round');
+            aboutIcon.removeClass('ion-minus-round')
+       }    
+        
     });
     
 
