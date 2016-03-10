@@ -202,4 +202,22 @@ html {
     color: rgba(149, 147, 134, 0.64);
 }
 .contact__email { font-size: 2rem; }
-    
+
+
+/*------slideshow view-------------*/
+.popup-gallery img {
+    height: 10rem;
+    width: auto;
+    padding: 1rem;
+}
+.mfp-title {
+    text-rendering: optimizeLegibility;
+    font-family: 'Cardo', serif;
+    color: #CCC;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    display: block;
+    padding: .5rem 1rem 2rem 1rem;
+}
+button.mfp-close { display: none; }
+.mfp-counter { display: none; }
