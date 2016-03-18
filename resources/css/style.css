@@ -131,7 +131,7 @@ html {
 
 
 /*------FOOTER-------------*/
-.footer { padding: .5rem; }
+.footer { padding: 1rem; }
 
 
 /*------FRONT PAGE-------------*/
@@ -205,9 +205,10 @@ html {
 
 
 /*------slideshow view-------------*/
-.thumbnails img {
-    height: 10rem;
-    width: auto;
+.thumbnail img {
+    height: auto;
+    width: 80%;
+    padding: 1rem;
 }
 #blueimp-gallery h3 {
     font-family: 'Cardo', serif;
