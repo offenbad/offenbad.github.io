@@ -86,7 +86,7 @@ html {
 }
 .header__nav__item {
     display: inline-block;
-    padding: .5rem 1rem;
+    padding: .7rem 1rem;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -205,15 +205,17 @@ html {
 
 
 /*------slideshow view-------------*/
+
 .thumbnail img {
+    width: 100%;
     height: auto;
-    width: 80%;
     padding: 1rem;
 }
 #blueimp-gallery h3 {
     font-family: 'Cardo', serif;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-rendering: optimizeLegibility;
     letter-spacing: 1.5px;
+    line-height: 2rem;
 }
